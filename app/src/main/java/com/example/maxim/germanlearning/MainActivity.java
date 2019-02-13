@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         ((Button) findViewById(R.id.Success)).setOnClickListener(this);
         ((Button) findViewById(R.id.Failure)).setOnClickListener(this);
         ((Button) findViewById(R.id.ShowAnswer)).setOnClickListener(this);
-
+        resetList();
         displayNext();
     }
 
