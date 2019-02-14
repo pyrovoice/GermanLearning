@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         ((Button) findViewById(R.id.Success)).setOnClickListener(this);
         ((Button) findViewById(R.id.Failure)).setOnClickListener(this);
         ((Button) findViewById(R.id.ShowAnswer)).setOnClickListener(this);
+        ((Button) findViewById(R.id.Reroll)).setOnClickListener(this);
         resetList();
         displayNext();
     }
@@ -55,7 +56,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
         lastDisplayedWord = w;
         ((TextView) findViewById(R.id.Answer)).setText("");
-        ((TextView) findViewById(R.id.Additionnal)).setText("");
         ((TextView) findViewById(R.id.Display)).setText(lastDisplayedWord.EnglishValue);
         toggleButtons(true);
     }
@@ -74,19 +74,45 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     private void showAnswer() {
         ((TextView) findViewById(R.id.Answer)).setText(lastDisplayedWord.GermanValue);
-        ((TextView) findViewById(R.id.Additionnal)).setText(lastDisplayedWord.AdditionnalGermanValue);
         toggleButtons(false);
     }
 
     private void applyAnswer(boolean b) {
         if (b) {
-            a.remove(lastDisplayedWord);
-            if (a.size() == 0)
-                resetList();
+            // Check if it's the last one
+            int counter = 0;
+            for(Word w : a){
+                if(w.EnglishValue.equals(lastDisplayedWord.EnglishValue)){
+                    counter++;
+                }
+            }
+            if(counter > 1)
+                a.remove(lastDisplayedWord);
         } else {
             a.add(lastDisplayedWord);
         }
         displayNext();
+    }
+
+    /***
+     * Remove all instance of the current selected word from the list, then add a new word to the list, before displaying the next word.
+     */
+    private void rerollCurrentWord() {
+        for (int i = a.size() - 1; i >= 0; i--) {
+            if (lastDisplayedWord.EnglishValue.equals(a.get(i).EnglishValue))
+                a.remove(i);
+        }
+        try {
+            Word newWord = Helper.getWordList(this, 1).get(0);
+
+            a.add(newWord);
+            a.add(newWord);
+            a.add(newWord);
+        } catch (Exception e) {
+
+        }
+        displayNext();
+
     }
 
     @Override
@@ -100,6 +126,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.Failure:
                 applyAnswer(false);
+                break;
+            case R.id.Reroll:
+                rerollCurrentWord();
                 break;
         }
     }
