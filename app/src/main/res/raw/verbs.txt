@@ -1,100 +1,500 @@
-sein to be
-haben to have
-werden to become
-können can, to be able to
-müssen must, to have to
-sagen to say
-machen to do, make
-geben to give
-kommen to come
-sollen should, ought to
-wollen to want
-gehen to go
-wissen to know
-sehen to see
-lassen to let, allow, have done
-stehen to stand
-finden to find
-bleiben to stay, remain
-liegen to lie, be lying
-heißen to be called
-denken to think
-nehmen to take
-tun to do
-dürfen may, to be allowed
-glauben to believe
-halten to stop, hold
-nennen to name, to call (a name)
-mögen to like
-zeigen to show
-führen to lead
-sprechen to speak
-bringen to bring, take
-leben to live
-fahren to drive, ride, go
-meinen to think, have an opinion
-fragen to ask
-kennen to know
-gelten to be valid
-stellen to place, set
-spielen to play
-arbeiten to work
-brauchen to need
-folgen to follow
-lernen to learn
-bestehen to exist, insist, pass (an exam)
-verstehen to understand
-setzen to set, put, place
-bekommen to get, receive
-beginnen to begin
-erzählen to narrate, tell
-versuchen to try, attempt
-schreiben to write
-laufen to run
-erklären to explain
-entsprechen to correspond
-sitzen to sit
-ziehen to pull, move
-scheinen to shine, seem, appear
-fallen to fall
-gehören to belong
-entstehen to originate, develop
-erhalten to receive
-treffen to meet
-suchen to search, look for 
-legen to lay, put
-vor·stellen to introduce, imagine
-handeln to deal, trade
-erreichen to achieve, reach
-tragen to carry, wear
-schaffen to manage, create
-lesen to read
-verlieren to lose
-dar·stellen to depict, portray
-erkennen to recognize, admit
-entwickeln to develop
-reden to talk
-aus·sehen to appear, look (a certain way)
-erscheinen to appear
-bilden to form, educate
-an·fangen to begin
-erwarten to expect
-wohnen to live
-betreffen to affect, concern
-warten to wait
-vergehen to elapse; to decay
-helfen to help
-gewinnen to win
-schließen to close
-fühlen to feel
-bieten to offer
-interessieren to interest 
-erinnern to remember
-ergeben to result in
-an·bieten to offer
-studieren to study
-verbinden to connect, link
-an·sehen to look at, watch
-fehlen to lack, be missing, be absent
-bedeuten to mean
-vergleichen to compare
+sein, war, gewesen-to be
+haben, hatte, gehabt-to have; to contain
+können, konnte, gekonnt-can; to be able to
+werden, wurde, geworden-will; to be done (passive voice); to become
+wissen, wusste, gewusst-to know; to be aware of
+wollen-to want
+müssen, musste, gemusst-must; to have to; to be obliged (to do sth.)
+machen-to make; to prepare (e.g. food); to do
+tun, tat, getan-to do; to do sth. to so.
+sagen-to say; to tell
+gehen, ging, gegangen-to go; to leave; to work, to function (coll.)
+sehen, sah, gesehen-to see; to see (to sth.); to realise
+geben, gab, gegeben-to give
+sollen-should; to be asked (to do sth.); they say that
+meinen-to be of the opinion; to mean
+kommen, kam, gekommen-to come; to make it (e.g. over sth.); to go to; to occur
+lassen, ließ, gelassen-to let; to stop (sth.)
+glauben-to believe; to think
+passieren-to happen; to move beyond; to strain
+reden-to speak; to talk
+mögen-to like; may; to be hesitant to do sth. (in negation with inf.)
+hören-to hear; to listen to
+helfen, half, geholfen-to help (so.)
+finden, fand, gefunden-to find
+bleiben, blieb, geblieben-to remain; to stay; to be (implying tardiness)
+brauchen-to need
+lieben-to love
+bringen, brachte, gebracht-to bring; to take; to lead
+stehen, stand, gestanden-to stand; to be, to appear
+heißen, hieß, geheißen-to be called; to mean
+nehmen, nahm, genommen-to take; to cause oneself to be (in some state)
+sprechen, sprach, gesprochen-to speak
+sterben, starb, gestorben-to die
+töten-to kill
+bekommen, bekam, bekommen-to receive; to catch (e.g. a cold); to sit well with so.
+vergessen, vergaß, vergessen-to forget; to leave (forget to take)
+halten, hielt, gehalten-to hold; to stop; to support; to keep
+warten-to wait; to maintain (e.g. a car)
+kennen, kannte, gekannt-to know; to be acquainted with; to be familiar with
+verstehen, verstand, verstanden-to understand; to get along with so./sth.
+denken, dachte, gedacht-to think; to consider
+leben-to live; to reside
+stimmen-to be true (usu. "stimmt"); to vote; to tune
+verlieren, verlor, verloren-to lose
+dürfen, durfte, gedurft-to be allowed (to do sth.); may
+arbeiten-to work
+essen, aß, gegessen-to eat
+spielen-to play
+liegen, lag, gelegen-to lie; to be located
+fahren, fuhr, gefahren-to go (by vehicle); to leave; to drive
+versuchen-to try
+erzählen-to tell; to narrate
+bedeuten-to mean; to signify
+fragen-to ask; to wonder (refl.)
+bestimmen-to determine
+treffen, traf, getroffen-to meet; to encounter
+hoffen-to hope
+suchen-to seek; to search
+verlassen, verließ, verlassen-to leave; to trust with sth. (refl.); to pass away, to die
+zeigen-to point at; to demonstrate
+kriegen-to get; to come down with
+holen-to fetch
+gefallen, gefiel, gefallen-to please; to appeal to
+retten-to save; to rescue
+scheinen, schien, geschienen-to seem; to shine
+schlafen, schlief, geschlafen-to sleep
+lernen-to learn; to study (revise/review materials); to train sth.
+trinken, trank, getrunken-to drink
+schaffen, schuf, geschaffen-to create; to produce
+funktionieren-to work, function
+wehtun, tat weh, wehgetan-to hurt
+stellen-to pose (a question); to position; to put; to catch
+nennen, nannte, gennant-to name; to mention
+laufen, lief, gelaufen-to walk; to flow (of a fluid); to run (of an event)
+fühlen-to feel; to feel sth. (good/bad) (refl.)
+erinnern-to remind; to remember (refl.)
+kämpfen-to fight, to struggle
+heiraten-to marry
+erklären-to explain; to declare; to assert
+sitzen, saß, gesessen-to sit; to stay; to fit (of clothing)
+tragen, trug, getragen-to carry; to hold; to wear (clothing)
+kaufen-to buy
+hassen-to hate
+umbringen, brachte um, umgebracht-to kill, to murder; to be very angry at so.
+kümmern-to take care (refl.); to trouble, to concern
+verletzen-to hurt, to injure; to violate (rules, laws, etc.)
+interessieren (für)-to interest; to be interested in (refl. with für)
+ziehen, zog, gezogen-to pull; to drag; to move
+anrufen, rief an, angerufen-to call by telephone; to call on (so., e.g. a divine being)
+aufhören-to stop
+vorstellen-to move forward; to represent; to introduce
+verschwinden, verschwand, verschwunden-to disappear; to get lost
+erwarten-to expect; to await
+führen-to lead
+anfangen, fing an, angefangen-to begin
+geschehen, geschieht, geschehen-to occur; to happen
+gewinnen, gewann, gewonnen-to win
+klingen, klang, geklungen-to sound
+setzen-to set; to sit down (refl.)
+benutzen-to use
+fallen, fiel, gefallen-to fall; to fall in battle; to collapse
+schicken-to send
+fliegen, flog, geflogen-to fly
+erfahren, erfuhr, erfahren-to experience
+bezahlen-to pay
+schreiben, schrieb, geschrieben-to write
+schätzen-to guess; to evaluate; to appreciate
+bitten, bat, gebeten-to ask, to request
+lesen, las, gelesen-to read
+behalten, behielt, behalten-to keep
+verkaufen-to sell
+verdienen-to earn
+wünschen-to wish
+verheiraten-to marry (to perform the marriage); to get married (refl.)
+verdammen-to condemn; to damn
+stecken, stak, gesteckt-to stick; to pin
+passen-to fit; to suit
+schlagen, schlug, geschlagen-to hit; to defeat; to beat (cooking)
+verändern-to alter; to change
+folgen-to follow
+ansehen. sah an, angesehen-to look at
+zerstören-to destroy
+entschuldigen-to excuse; to apologise
+schießen, schoss, geschossen-to shoot
+beschützen-to protect
+stehlen, stahl, gestohlen-to steal
+bewegen-to move
+erwischen-to catch so./sth.; to catch so. unprepared
+vertrauen-to trust
+erreichen-to reach
+versprechen, versprach, versprochen-to promise; to hope for; to misspeak
+erledigen-to finish; to take care of
+drehen-to turn; to veer
+schwören, schwor, geschworen-to swear; to take an oath
+aussehen, sah aus, ausgesehen-to appear, to look (like)
+verlieben-to fall in love (refl.)
+verraten, verriet, verraten-to betray; to reveal
+gebären, gebar, geboren-to give birth
+aufhalten, hielt auf, aufgehalten-to halt; to stay (in a place)
+dauern-to last; to take (time)
+verstecken-to hide
+fangen, fing, gefangen-to catch
+beschäftigen-to concern oneself with sth. (usu. "beschäftigt")
+tanzen-to dance
+fehlen-to lack; to be absent
+öffnen-to open
+entscheiden, entschied, entschieden-to decide
+entfernen-to remove; to recede; to deviate; to desert (military)
+gehören-to belong
+zahlen-to pay (for sth.); to atone for
+legen-to lay; to lean; to lie down
+erhalten, erhielt, erhalten-to maintan; to receive; to save
+sorgen-to care; to worry
+schauen-to look at sth.
+lachen-to laugh
+beweisen, bewies, bewiesen-to prove
+herausfinden, findet heraus, herausgefunden-to find sth. out
+fürchten-to fear; to be afraid
+beginnen, begann, begonnen-to begin
+überraschen-to surprise
+singen, sang, gesungen-to sing
+besorgen-to obtain; to manage
+besuchen-to visit
+ändern-to change
+mitnehmen, nahm mit, mitgenommen-to carry along; to pick up; to take away
+rufen, rief, gerufen-to call out; to telephone
+leisten-to perform; to afford (refl.)
+entkommen, entkam, entkommen-to escape
+vermissen-to miss sth./so.; to have sth. missing
+hängen, hing, gehangen-to hang; to be fond of; depend on
+werfen, warf, geworfen-to throw
+überleben-to survive
+wetten-to bet
+erkennen, erkannte, erkannt-to recognise; to realise
+wohnen-to live, to reside, to dwell
+schreiten, schrittt, geschritten-to stride; to step; to proceed
+teilen-to split, to share; to divide
+erschießen, erschoss, erschossen-to shoot dead
+übernehmen, ubernahm, ubernommen-to take over
+danken-to thank
+bauen-to build: to roll a joint
+schützen-to defend; to protect
+beenden-to finish, to complete; to terminate
+verpassen-to miss (to be late for sth., e.g. a train)
+fassen-to grasp
+verhaften-to detain, to take into custody
+feieren-to celebrate
+unterhalten, unterhielt, unhterhalten-to maintain; to entertain; to converse (refl.)
+aufpassen-to watch out; to look after something; to be attentive with sth.
+mitbringen, bracht mit, mitgebracht-to bring along, to bring with
+melden-to report
+bestehen, bestand, bestanden-to succeed, to pass (an exam); to consist (aus ("of")); to exist; to insist (auf ("on"))
+planen-to plan
+betrinken, betrank, betrunken-to get drunk (refl.)
+brechen, brach, gebrochen-to break
+antun, tat an, angetan-to do something to someone; to appeal to someone
+mitkommen, kam mit, mitgekommen-to come with so., to understand sth.
+nachdenken, dachte nach, nachgedacht-to think, to reflect
+ermorden-to murder
+leiden, litt, gelitten-to bear, to endure, to suffer
+freuen-to make glad; to be glad (über sth.) (refl.); to look forward (auf sth.) (refl.)
+aufgeben, gab auf, aufgegeben-to give up on; to give up (refl.); to abandon
+verbringen, verbrachte, verbracht-to spend (time)
+verfolgen-to pursue; to persecute; to trace
+bermerken-to notice
+schließen, schloss, geschlossen-to shut; to close; to lock; to conclude
+weinen-to weep, cry
+küssen-to kiss; to make out
+behandeln-to treat (medicinally); to treat (physically); to cover (a subject)
+entdecken-to discover, to spot
+treten, trat, getreten-to step; to read; to kick (a ball)
+lauten-to sound; to read (have a certain wording)
+hingehen, ging hin, hingegangen-to go (there); (of time) to pass
+feuern-to fire (a weapon); to fire (terminate employment)
+gebrauchen-to use
+verhindern-to prevent, to inhibit
+erwähnen-to mention (to speak of something)
+erlauben-to permit (with dative)
+einladen, lädt ein, eingeladen-to invite; to load (something into a container)
+angreifen, griff an, angegriffen-to attack
+zulassen, ließ zu, zugelassen-to allow; to license (for a car)
+lügen, log, gelogen-to lie; to give false information (unintentionally)
+verlangen-to ask for, demand
+lösen-to loosen; to separate; to remove; to solve
+vorbereiten-to prepare
+überprüfen-to check
+stören-to disturb, to interfere
+kontrollieren-to control; to check
+gelten, galt, gegolten-to be valid; to be effective; to be worth
+zurückkommen, kam zurück, zurückgekommen-to return (to come back)
+hinterlassen, hinterließ, hinterlassen-to leave; to leave behind; to bequeath
+jagen-to hunt
+enden-to end
+irren-to err
+merken-to notice; to remember (refl.); to realise
+abholen-to collect, pick up so. or sth.
+stoppen-to stop
+schreien, schrie, geschrieen-to shout; to yell; to scream
+klauen-to steal
+entführen-to abduct, to kidnap
+überlegen-to think, to think over
+reparieren-to repair
+ausgehen, ging aus, ausgegangen-to go out; to run out (e.g. of money)
+überzeugen-to convince; to convince oneself (refl.)
+erwachsen, erwuchs, erwachsen-to grow up; to spring up; to accrue
+annehmen, nahm an, angenommen-to assume; to receive; to accept
+zählen-to count
+vergeben, vergab, vergeben-to set (work); to forgive; to assign
+landen-to land (a plane)
+trennen-to separate, part, uncouple; to disonnect; to isolate
+verbinden, verband, verbunden-to join, to connect; to bandage
+springen, sprang, gesprungen-to spring; to jump
+fliehen, floh, geflohen-to flee; to diverge
+aufnehmen, nahm auf, aufgenommen-to pick up; to receive; to take in; to record
+verursachen-to cause
+trauen-to trust; to marry; to dare (refl.)
+klappen-to clap; to fold; to work (out) (coll.)
+umgehen, umging, umgangen-to avoid, to go around
+wählen-to choose; to dial (a number); to vote
+existieren-to exist
+unternehmen, unternahm, unternommen-to undertake
+befinden, befand, befunden-to be located (refl.); to find, to consider (formal)
+weitermachen-go on, keep gooing, continue to do something
+rauchen-to smoke (e.g. a cigarete)
+aufregen-to annoy, to upset (refl.)
+entlassen, entließ, entlassen-to release (a prisoner or patient); to dismiss (from a job)
+entwickeln-to develop
+beobachten-to watch, to observe
+raten, riet, geraten-to advise; to recommend; to guess
+geraten, geriet, geraten-to turn out, succed; to thrive
+besprechen, besprach, besprochen-to discuss
+verbieten, verbot, verboten-to forbid, to prohibit (with dative)
+angehen, ging an, angegangen-to conern; to tackle (a problem); to turn on (a machine)
+kapieren-to understand intellectually (coll.); to get (coll.)
+ertragen, ertrug, ertragen-to bear, to stand
+beeilen-to hurry, to hasten, to rush (refl.)
+abhauen-to cut off (cutting weapon); to do a runner; to piss off
+abschließen, schloss ab, abgeschlossen-to end, to complete; to shut off; to lock up; to conclude (a contract, deal)
+enttäuschen-to disappoint
+schwimmen, schwamm, geschwommen-to swim; to float
+ergeben, ergab, ergeben-to produce; to surrender (refl.); to arise, result, turn out
+bieten, bot, geboten-to offer; to bid; to arrise, to occur (of an opportunity) (refl.)
+schmecken-to taste
+riskieren-to risk
+konzentrieren-to concentrate
+übergeben, übergab, übergeben-to hand over; to vomit (refl.)
+befreien-to free (make free)
+starten-to start (car, airplane, etc); to start sth.
+vernichten-to destroy; to ruin; to annihilate; to eradicate
+wahren-to protect, to safeguard; to maintain, to preserve
+spüren-to sense
+betreffen, betraf, betroffen-to concern, to affect
+antworten-to answer, to reply
+ankommen, kam an, angekommen-to arrive; to depend (auf sth.)
+begleiten-to accompany; to conduct, escort
+akzeptieren-to accept
+steigen, stieg, gestiegen-to ascend; to climb; to rise
+stammen-to descend, originate, be derived
+zuhören-to listen to so./sth. (with dative)
+begegnen-to meet, encounter (with dative)
+gucken-to look, to watch, to have a certain facial expression
+brennen, brannte, gebrannt-to burn; to have a strong affection for; to induce pain
+begraben, begrub, begraben-to bury
+verbrechen, verbrach, verbrochen-to commit (a crime)
+beruhigen-to calm
+kochen-to boil (to heat a liquid); to boil sth.; to cook
+bestellen-to summon; to order (e.g. food); to reserve
+ruinieren-to ruin
+kosten-to cost; to taste
+besiegen-to defeat (in battle or contest)
+klingeln-to ring (to produce the sound of a bell or a similar sound)
+wagen-to venture, to dare; to risk, to jeopardise
+untersuchen-to examine, to investigate
+rausfinden, fand raus, rausgefunden-to figure out (coll.)
+erfüllen-to fill (with sth.); to fulfill; to come true
+zwingen, zwang, zwungen-to force; to compel
+zurückkehren-to return
+wechseln-to change, to exchange
+herkommen, kam her, hergekommen-to come over, come here (towards the speaker); to come from
+wirken-to work; to be effective; to take affect; to act
+schnappen-to snap (with one's mouth); to catch; to nab (a criminal) (coll.)
+aufstehen, stand auf, aufgestanden-to get up; to be open (e.g. a window, door)
+anhalten, hielt an, angehalten-to stop (cease moving); to continue; to compel
+streiten, stritt, gestritten-to argue; to fight; to quarrel
+atmen-to breathe
+erleben-to experience; to witness
+beschließen, beschloss, beschlossen-to end, to close; to decide
+drücken-to press; to push
+genießen, genoss, genossen-to enjoy (an experience); to relish
+beeindrucken-to impress so.
+absehen, sah ab, abegesehen-to foresee; to overlook, to disregard
+zusehen, sah zu, zugesehen-to watch; to see, to make sure (that sth. happens)
+betrügen, betrog, betrogen-to cheat; to swindle; to defraud
+heilen-to heal
+unterschreiben, unterschrieb, unterschrieben-to sign (write one's signature)
+erfinden, erfand, erfunden-to invent; to fabricate (sth. untrue); to find out
+rauskommen, kam raus, rausgekommen-to get out; to make it big (with groß before verb)
+ficken-to fuck
+warnen-to warn
+behaupten-to claim, maintain, assert
+auffallen, fiel auf, aufgefallen-to stand out; to catch someone's eye (with dative)
+rennen, rannte, gerannt-to race; to sprint; to run over someone (aux. with haben)
+beten-to pray
+treiben, trieb, getrieben-to propel; to put forth; to urge (figuratively); to fuck; to float; to sprout; to get up to
+unterstützen-to support
+loswerden, wurde los, losgeworden-to get rid of so./sth.
+träumen-to dream
+empfangen, empfing, empfangen-to receive; to greet; to conceive (biology)
+wiedersehen, sah wieeder, wiedergesehen-to see again, to meet again
+reisen-to travel
+packen-to pack, to grab; to manage
+erfreuen-to please; to enjoy (refl.)
+bestätigen-to confirm, to corroborate
+anfassen-to touch
+greifen, griff, gegriffen-to grab; to seize; to reach; to capture
+richten-to direct; to judge; to be directed ("auf" towards, "gegen" at)
+erschrecken, erschrak, erschrocken-to be frightened; to frighten
+verteidigen-to defend
+probieren-to try; to taste; to sample
+anziehen, zog an, angezogen-to get dressed; to put on; to dress so.; to attract; to pull
+verarschen-to trick; to fool
+anbieten, bot an, angeboten-to offer, to provide
+wiederholen-to repeat
+beibringen, brachte bei, beigebracht-to teach; to break (news, information) carefully to; to inflict
+schneiden, schnitt, geschnitten-to cut; to prune
+informieren-to inform
+beantworten-to answer (a question)
+hauen, haute, gehauen-to slash; to cut; to hit (coll.)
+erschaffen, erschuf, erschaffen-to create; to produce; to make
+bewahren-to keep, to preserve (to maintain the condition of)
+schulden-to owe; to be due to
+schenken-to give; to give as a present, to gift
+überlassen, überließ, überlassen-to relinquish; to leave sth. in so.'s care
+besitzen, besaß, besessen-to own, to possess; to have
+durchmachen-to go through; to endure; to undergo; to finish; to stay up all night
+wachsen, wuchs, gewachsen-to grow; to increase
+verzeihen, verzieh, verziehen-to forgive; to pardon; to excuse
+versagen-to fail: to refuse; to deny
+reinlegen-to spoof (coll.)
+spazieren-to stroll; to take a walk
+bestrafen-to punish
+ausruhen-to rest (refl.)
+begeistern-to enthuse; to be enthusiastic (refl.)
+einsperren-to lock up, to imprison
+stinken, stank, gestunken-to stink
+regeln-to regulate
+anlügen, log an, angelogen-to lie to; to tell so. a lie
+klären-to clarify
+bescheißen, beschiss, beschissen-to deceive so.; to screw so.
+berühren-to touch
+scheißen, schiss, geschissen-to shit
+verwandeln-to metamorphose; to transform; to turn sth. into sth.
+verschwenden-to squander; to waste
+riechen, roch, gerochen-to sniff; to reek; to tolerate so. (coll.)
+reagieren-to react; to respond
+bekämpfen-to fight against sth.
+äußern-to utter; to say; to express
+waschen, wusch, gewaschen-to wash
+übersetzen-to translate
+rausholen-to spring so. (from a trap, prison etc.); to spring sth. (suddenly); to whip it out
+mitmachen-to take part
+verwenden-to use
+erscheinen, erschien, erschienen-to appear; to seem
+anstellen-to queue (refl.); to employ so.; to get into mischief
+rächen-to take revenge (refl.) ("an" so.)
+zugeben, gab zu, zugegeben-to admit
+reingehen, ging rein, reingegangen-to go in
+verfluchen-to curse
+üben-to practise
+ausziehen, zog aus, ausgezogen-to take sth. off; to undress; to pull out; to move out
+aktivieren-to activate; to enable
+anschießen, schoss an, angeschossen-to shoot along; to shoot so.
+achten-to respect; to regard so.; to pay attention to sth. (with "auf")
+vermuten-to assume, suppose, suspect sth.
+einstellen-to employ so.; to adjust; to cease
+versauen-to mess sth. up; to butcher sth.; to cock sth. up
+flehen-to beg; to entreat; to beseech
+kennenlernen-to meet so.; to get to know so./sth.
+identifizieren-to identify
+fressen, fraß, gefressen-to eat (of an animal); to gorge; to guzzle
+aufmachen-to open; to head/move off (refl.); to undo sth.
+verabschieden-to disband; to see so. off; to say goodbye (refl.); to adopt (a law, etc.)
+wetten-to bet
+verzweifeln-to despair
+auftauchen-to arise; to surface; to turn up
+linken-to deceive so.; to con so.
+überfallen, überfiel, überfallen-to attack; to raid (a bank); to invade (a country)
+einfallen, fiel ein, eingefallen-to collapse; to come to mind
+entschließen, entschloss, entschlossen-to decide (refl.);
+liefern-to deliver sth.; to provide sth.; to furnish
+begehen, beging, begangen-to commit, perpetrate (a crime, an offence)
+leiten-to lead
+nachsehen, sah nach, nachgesehen-to chech back; to peek; to look sth. up/over
+aussuchen-to select, to choose, to pick
+sammeln-to collect; to gather
+anschauen-to look at; to behold
+reiten, ritt, geritten-to ride; to ride on the back of so./sth.
+lächeln-to smile
+bereuen-to regret sth.; to rue sth.
+berichten-to report; to indicate; to refer
+präsentieren-to present; to introduce
+verbergen, verbarg, verborgen-to conceal sth: to hide sth.
+sparen-to save up; to conserve
+verurteilen-to condemn; to sentence (law)
+weitergehen, ging weiter, weitergegangen-to continue; to proceed; to keep moving
+vermasseln-to screw up, to botch, to goof, to muddle
+schweigen, scwieg, geschwiegen-to be silent; to remain silent
+wenden-to turn sth.; to make a u-turn
+explodieren-to explode
+versetzen-to put, to move; to deal, to give (a blow, hit); to transfer (when to do with work)
+verbrennen, verbrannte, verbrannt-to burn, to incinerate; to burn oneself; to scorch (miltary)
+aufwachen-to wake up
+einsetzen-to insert; to use; to appoint; to risk
+zurückgehen, ging zurück, zurückgegangen-to go back; to decline
+vermeiden, vermied, vermieden-to avoid
+streichen, strich, gestrichen-to stroke; to cancel; to spread, to rub; to paint
+befreunden-to befriend (refl.)
+aussteigen, stieg aus, ausgestiegen-to exit; to get off
+entspannen-to relax (refl.); to relieve pressure
+abgeben, gab ab, abgegeben-to hand sth. in; to emit sth.; to deliver sth.; to cede sth.
+beleidigen-to offend so., to insult so.
+eingehen, ging ein, eingegangen-to shrink (textile); to wither/die (plants, animals); to assume sth.;
+zurückbringen, brachte zurück, zurückgebracht-to return sth.; to restore
+beteiligen-to take part ("an") sth. (refl); to consult so.
+verabreden-to arrange; to make an appointment
+bilden-to form; to educate oneself (refl.)
+abnehmen, nahm ab, abegenommn-to decrease; to lose weight; to accept sth.; to pick up (of telephones)
+verprügeln-to beat so. up; to wallop
+verhandeln-to negotiate
+leihen, lieh, geliehen-to lend; to borrow
+verhalten, verhielt, verhalten-to behave (refl.); to act (refl.); to press (coll.)
+telefonieren-to telephone
+tauschen-to trade; to exchange, to swap
+weglaufen, lief weg, weggelaufen-to run away
+senden-to broadcast; to send
+weggehen, ging weg, weggegangen-to go away, to leave
+übertreiben, übertrieb, übertrieben-to exaggerate; to overdo
+stöhnen-to moan, to groan
+stürzen-to fall; to rush; to throw; to overturn; to overthrow sth.
+trainieren-to train, to coach; to work out
+studieren-to study; to go to universitty/college
+benehmen, benahm, benommen-to behave (refl.)
+malen-to paint
+vergiften-to poison
+gewöhnen (an)-to accustom oneself to sth. (refl.)
+prüfen-to investigate; to check sth.; to consider
+festhalten, hielt fest, festgehalten-to hold so./sth.; to retain sth.; to record sth.; to detain
+bedrohen-to threaten; to menace
+bedanken-to thank so. (refl.)
+nerven-to annoy so.; to get on so.'s nerves
+bereiten-to prepare sth. (meals, coffee, etc.); to give, to cause (pleasure, trouble, etc.)
+opfern-to sacrifice
+leeren-to empty
+einschlafen, schlief ein, eingeschlafen-to fall asleep
+verlaufen, verlief, verlaufen-to blend; to continue; to get lost (refl.); to go (well, poorly, etc.)
+herrschen-to rule; to prevail, to control
+anhören-to listen to so.
+wecken-to wake, to wake up
+aussetzen-to pause; to suspend sth.; to abandon so.; to expose oneself to sth. (refl.)
+garantieren-to guarantee

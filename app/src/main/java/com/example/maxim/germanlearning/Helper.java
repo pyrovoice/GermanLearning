@@ -34,17 +34,22 @@ public class Helper {
             String[] germanValue;
             germanValue = parts[1].split("_");
 
-            Word w = new Word(WordType.noun, parts[0], germanValue[0], germanValue[1]);
+            Word w = new Word(WordType.noun, "A " + parts[0], germanValue[0], germanValue[1]);
             allWords.add(w);
         }
         r = context.getResources().openRawResource(R.raw.verbs);
         reader = new BufferedReader(new InputStreamReader(r));
         while (line != null) {
-            int a = line.indexOf(" ");
-            String german = line.substring(0, a);
-            String eng = line.substring(a + 1);
-            Word w = new Word(WordType.verb, eng, german, null);
-            allWords.add(w);
+            String[] parts = line.split("-");
+            String german = parts[0];
+            if(german.contains(",")){
+                german = german.split(",")[0];
+            }
+            String eng = parts[1];
+            for(String s : eng.split(";")){
+                Word w = new Word(WordType.verb, "To " + s, german, null);
+                allWords.add(w);
+            }
         }
     }
 }
