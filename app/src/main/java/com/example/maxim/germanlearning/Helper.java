@@ -2,15 +2,20 @@ package com.example.maxim.germanlearning;
 
 import android.content.Context;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
+import java.io.*;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
+import java.util.HashSet;
 import java.util.Random;
+import java.nio.charset.StandardCharsets;
+import java.util.Set;
 
 public class Helper {
     private static ArrayList<Word> allWords = new ArrayList<>();
+    private static final String ABSOLUTE_PATH_TO_LISTS = "/mnt/sdcard/GermanLearning/";
+    private static final String SEPARATOR = ";";
 
     public static ArrayList<Word> getWordList(Context context, int nbr) throws IOException {
         if (allWords.size() <= 0) {
@@ -42,14 +47,75 @@ public class Helper {
         while (line != null) {
             String[] parts = line.split("-");
             String german = parts[0];
-            if(german.contains(",")){
+            if (german.contains(",")) {
                 german = german.split(",")[0];
             }
             String eng = parts[1];
-            for(String s : eng.split(";")){
+            for (String s : eng.split(";")) {
                 Word w = new Word(WordType.verb, "To " + s, german, null);
                 allWords.add(w);
             }
         }
+    }
+
+    private static void writeToFile(String path, String toWrite) {
+        FileOutputStream fos = null;
+        try {
+            fos = new FileOutputStream(path);
+            byte[] buffer = toWrite.getBytes(StandardCharsets.UTF_8);
+            fos.write(buffer, 0, buffer.length);
+            fos.close();
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        } finally {
+            if (fos != null) {
+                try {
+                    fos.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+
+    }
+
+    public static String createWordListFromWords(ArrayList<Word> words) {
+        return createWordListFromWords(words, null);
+    }
+
+    public static String createWordListFromWords(ArrayList<Word> words, String fileName) {
+        if (fileName == null) {
+            for (Word w : words) {
+                fileName += w.EnglishValue + " ";
+            }
+        }
+        String fileContent = "";
+        for (Word w : words) {
+            fileContent += w.wt + SEPARATOR + w.EnglishValue + SEPARATOR + w.GermanValue + "\n";
+        }
+        Helper.writeToFile(ABSOLUTE_PATH_TO_LISTS + fileName, fileContent);
+        return fileName;
+    }
+
+    public static ArrayList<Word> getWordFromList(String fileName) throws IOException {
+        BufferedReader r = new BufferedReader(new InputStreamReader(new FileInputStream(ABSOLUTE_PATH_TO_LISTS + fileName)));
+        ArrayList<Word> words = new ArrayList<>();
+        for (String line; (line = r.readLine()) != null; ) {
+            String[] parts = line.split(SEPARATOR);
+            words.add(new Word(parts[0], parts[1], parts[2]));
+        }
+        return words;
+
+    }
+
+    public static String getRandomWordList(ArrayList<Word> a) throws IOException {
+        File folder = new File(ABSOLUTE_PATH_TO_LISTS);
+        File[] listOfFiles = folder.listFiles();
+        Random r = new Random();
+        File selectedFile = listOfFiles[r.nextInt(listOfFiles.length)];
+        a.addAll(getWordFromList(selectedFile.getName()));
+        return selectedFile.getName();
     }
 }

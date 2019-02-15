@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private ArrayList<Word> a;
     private Random r = new Random();
     private Word lastDisplayedWord;
+    private String wordListName;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,23 +31,32 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         ((Button) findViewById(R.id.Success)).setOnClickListener(this);
         ((Button) findViewById(R.id.Failure)).setOnClickListener(this);
         ((Button) findViewById(R.id.ShowAnswer)).setOnClickListener(this);
-        ((Button) findViewById(R.id.Reroll)).setOnClickListener(this);
-        resetList();
+
+        if(getIntent().getBooleanArrayExtra("loadExistingSuite")[0]){
+            ((Button) findViewById(R.id.Reroll)).setVisibility(View.GONE);
+            try {
+                wordListName = Helper.getRandomWordList(a);
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+            for (int i = a.size() - 1; i >= 0; i--) {
+                a.add(a.get(i));
+                a.add(a.get(i));
+            }
+        }else{
+            ((Button) findViewById(R.id.Reroll)).setOnClickListener(this);
+            try {
+                a = Helper.getWordList(this, 13);
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+            wordListName = Helper.createWordListFromWords(a);
+            for (int i = a.size() - 1; i >= 0; i--) {
+                a.add(a.get(i));
+                a.add(a.get(i));
+            }
+        }
         displayNext();
-    }
-
-    private void resetList() {
-        try {
-            a = Helper.getWordList(this, 13);
-
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        // Triple each words in th list
-        for (int i = a.size() - 1; i >= 0; i--) {
-            a.add(a.get(i));
-            a.add(a.get(i));
-        }
     }
 
     private void displayNext() {

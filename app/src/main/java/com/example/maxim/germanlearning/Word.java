@@ -14,4 +14,10 @@ public class Word {
         GermanValue = germanValue;
         AdditionnalGermanValue = additionnalGermanValue;
     }
+
+    public Word(String wordType, String englishValue, String germanValue) {
+        wt = WordType.valueOf(wordType);
+        EnglishValue = englishValue;
+        GermanValue = germanValue;
+    }
 }
