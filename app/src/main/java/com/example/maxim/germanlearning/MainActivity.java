@@ -19,7 +19,7 @@ import java.util.Random;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
-    private ArrayList<Word> a;
+    private ArrayList<Word> a = new ArrayList<>();
     private Random r = new Random();
     private Word lastDisplayedWord;
     private String wordListName;
@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         ((Button) findViewById(R.id.Failure)).setOnClickListener(this);
         ((Button) findViewById(R.id.ShowAnswer)).setOnClickListener(this);
 
-        if(getIntent().getBooleanArrayExtra("loadExistingSuite")[0]){
+        if(getIntent().getBooleanExtra("loadExistingSuite", false)){
             ((Button) findViewById(R.id.Reroll)).setVisibility(View.GONE);
             try {
                 wordListName = Helper.getRandomWordList(a);

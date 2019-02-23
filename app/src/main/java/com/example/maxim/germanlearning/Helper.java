@@ -51,14 +51,26 @@ public class Helper {
                 german = german.split(",")[0];
             }
             String eng = parts[1];
-            for (String s : eng.split(";")) {
-                Word w = new Word(WordType.verb, "To " + s, german, null);
-                allWords.add(w);
-            }
+            Word w = new Word(WordType.verb, "To " + eng.split(";")[0], german, null);
+            allWords.add(w);
+
         }
     }
 
     private static void writeToFile(String path, String toWrite) {
+        //Create files if don't exists
+        File f = new File(ABSOLUTE_PATH_TO_LISTS);
+        if (!f.exists()) {
+            f.mkdirs();
+        }
+        File file = new File(path);
+        if (!file.exists()) {
+            try {
+                file.createNewFile();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
         FileOutputStream fos = null;
         try {
             fos = new FileOutputStream(path);
@@ -87,9 +99,8 @@ public class Helper {
 
     public static String createWordListFromWords(ArrayList<Word> words, String fileName) {
         if (fileName == null) {
-            for (Word w : words) {
-                fileName += w.EnglishValue + " ";
-            }
+            SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd-HH-mm-ss");
+            fileName = format.format(new Date());
         }
         String fileContent = "";
         for (Word w : words) {

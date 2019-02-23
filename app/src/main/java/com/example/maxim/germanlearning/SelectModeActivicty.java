@@ -1,7 +1,11 @@
 package com.example.maxim.germanlearning;
 
+import android.Manifest;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.os.Bundle;
+import android.support.v4.app.ActivityCompat;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
@@ -16,7 +20,10 @@ public class SelectModeActivicty extends AppCompatActivity implements View.OnCli
         setContentView(R.layout.activity_select_mode);
         ((Button) findViewById(R.id.newSuit)).setOnClickListener(this);
         ((Button) findViewById(R.id.loadSuit)).setOnClickListener(this);
+
     }
+
+
 
     @Override
     public void onClick(View v) {
@@ -31,5 +38,7 @@ public class SelectModeActivicty extends AppCompatActivity implements View.OnCli
         }
         startActivity(intent);
     }
+
+
 
 }
