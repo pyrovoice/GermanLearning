@@ -1,6 +1,6 @@
 package com.example.maxim.germanlearning;
 
-enum WordType {verb, noun}
+enum WordType {verb, other, noun}
 
 public class Word {
     WordType wt;

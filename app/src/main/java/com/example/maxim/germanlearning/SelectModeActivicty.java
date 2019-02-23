@@ -38,7 +38,4 @@ public class SelectModeActivicty extends AppCompatActivity implements View.OnCli
         }
         startActivity(intent);
     }
-
-
-
 }

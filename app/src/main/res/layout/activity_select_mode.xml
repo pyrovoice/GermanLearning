@@ -9,9 +9,7 @@
     <Button
         android:id="@+id/newSuit"
         android:layout_width="384dp"
-        android:layout_height="264dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="68dp"
+        android:layout_height="248dp"
         android:text="Start a new suite"
         android:textSize="24dp"
         app:layout_constraintStart_toStartOf="parent"
@@ -21,11 +19,9 @@
         android:id="@+id/loadSuit"
         android:layout_width="384dp"
         android:layout_height="264dp"
-        android:layout_marginStart="12dp"
-        android:layout_marginTop="360dp"
         android:text="Load an existing suite"
         android:textSize="24dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </android.support.constraint.ConstraintLayout>

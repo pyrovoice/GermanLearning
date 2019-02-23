@@ -1,0 +1,98 @@
+vorgestern-the day before yesterday
+gestern-yesterday
+heute-today
+morgen-tomorrow
+übermorgen-the day after tomorrow
+damals-then
+früher-earlier
+jetzt-now
+sofort-immediately
+gleich-immediately
+bald-soon
+später-later
+dann-after/then
+immer-always
+fast immer-almost always
+meistens-most of the time
+häufig-frequently
+oft-often
+ab und zu-once in a while
+manchmal-sometimes
+selten-rarely
+fast nie-almost never
+nie-never
+morgens-in the morning
+nachmittags-in the afternoon
+abends-in the evening
+nachts-during the night
+täglich-daily
+wöchentlich-weekly
+monatlich-monthly
+jährlich-yearly/annually
+vorn-in front
+hinten-behind
+links-on the left
+rechts-on the right
+oben-up
+unten-down
+innen-inside
+außen-outside
+hier-here
+da-there
+dort-there
+überall-everywhere
+nirgends-nowhere
+hinein-inside
+heraus-outside
+aufwärts-upwards
+abwärts-downwards
+vorwärts-forwards
+rückwärts-backwards
+heimwärts-homeward
+westwärts-to the west
+bergauf-uphill
+bergab-downhill
+nur-only
+wenigstens-at least
+hingegen-on the other hand
+sehr-very
+kaum-hardly
+wer-who
+Wann-when
+während-during
+Warum-why
+Wie-how
+Wo-where
+Wohin-where to
+Woher-from where
+mein-my
+dein-your
+sein-his
+ihr-her
+sein-its
+unser-our
+euer-your
+ihr-their
+viel-much(how)
+bis-until
+durch-through
+für-for/of
+gegen-against
+wider-contrary
+ohne-without
+um-at/around
+ab-starting at
+aus-From
+außer-Without
+bei-Close to
+entsprechend-According to
+mit-with
+nach-To/Toward(City/Country)
+seit-since
+von-from
+zu-To/Toward(toward a place)
+in-into
+statt-Instead of
+aufgrund-Because of(formal)
+wegen-because of
+außerhalb-Outside of

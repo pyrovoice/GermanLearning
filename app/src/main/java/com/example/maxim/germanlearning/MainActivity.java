@@ -121,6 +121,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         } catch (Exception e) {
 
         }
+        Helper.createWordListFromWords(a, this.wordListName);
         displayNext();
 
     }
