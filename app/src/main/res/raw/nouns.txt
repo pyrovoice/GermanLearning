@@ -161,7 +161,6 @@ Silence–Die Stille_Die Stille
 Top–Die Spitze_Die Spitzen
 Rock–Der Fels_Die Steine
 Power–Die Macht_Die Befugnisse
-Clothes–Die Kleider_Die Clotheses
 Sign–Das Schild_Die Zeichen
 Attention–Die Aufmerksamkeit_Die Aufmerksamkeit
 Music–Die Musik_Die Musiken
@@ -234,7 +233,7 @@ Camera–Die Kamera_Die Kameras
 Dress–Das Kleid_Die Kleider
 Card–Die Karte_Die Karten
 Yard–Der Hof_Die Werften
-Dark–Die Dunkelheit_Die Dunkelheiten
+Dark–Die dunkel_Die Dunkelheiten
 Shit–Die Scheiße_Die Scheiße
 Image–Das Bild_Die Bilder
 Machine–Die Maschine_Die Maschinen
@@ -306,7 +305,6 @@ Island–Die Insel_Die Inseln
 Bus–Der Bus_Die Busse
 Smell–Der Geruch_Die Gerüche
 Noise–Das Geräusch_Die Geräusche
-Mama–Die Mama_The Mamas
 Park–Der Park_Die Parks
 South–Der Süden_Die Souths
 Pair–Das Paar_Die Paare
@@ -394,7 +392,6 @@ Watch–Die Uhr_Die Uhren
 Information–Die Information_Die Informationen
 Grandmother–Die Großmutter_Die Großmütter
 Wing–Der Flügel_Die Flügel
-Bob–Die Bob_Die Bobs
 Club–Der Club_Die Vereine
 Master–Der Meister_Die Meister
 Grace–Die Gnade_Die Gnaden
@@ -880,7 +877,6 @@ Tent–Das Zelt_Die Zelte
 Booth–Der Messestand_Die Stände
 Cash–Das Geld_Die Kassen
 Avenue–Die Straße_Die Alleen
-TShirt–Das TShirt_Die TShirts
 Carpet–Der Teppich_Die Teppiche
 Basement–Der Keller_Die Keller
 Girlfriend–Die Freundin_Die Freundinnen
@@ -904,7 +900,6 @@ Oak–Die Eiche_Die Eichen
 Ankle–Der Knöchel_Die Knöchel
 Doll–Die Puppe_Die Puppen
 Sandwich–Das Sandwich_Die Sandwiches
-Robin–Das Rotkehlchen_Die Rotkehlchen
 Justice–Die Justiz_Die Richter
 Pride–Der Stolz_Die Rudel
 Youth–Die Jugend_Die Jugendlichen
@@ -913,7 +908,6 @@ Research–Die Forschung_Die Forschungen
 Sport–Der Sport_Die Sport
 Task–Die Aufgabe_Die Aufgaben
 Grant–Der Zuschuss_Die Zuschüsse
-Sheriff–Der Sheriff_Die Sheriffs
 Midnight–Die Mitternachts_Die Mitternächte
 Chip–Der Chip_Die Chips
 Theory–Die Theorie_Theorien
@@ -923,7 +917,6 @@ Cross–Das Kreuz_Die Kreuze
 Pine–Die Kiefer_Die Kiefern
 Generation–Die Generation_Die Generationen
 Authority–Die Autorität_Die Behörden
-Papa–Die Papa_Die Papas
 Journey–Die Reise_Die Reisen
 Pearl–Die Perle_Die Perlen
 Toilet–Die Toilette_Die Toiletten
@@ -1003,9 +996,7 @@ Hunter–Der Jäger_Die Jäger
 Paint–Die Farbe_Die Anstriche
 Buster–Die Buster_The Busters
 Cotton–Die Baumwolle_Die Baumwollstoffe
-Sergeant–Der Wachtmeister_Die Feldwebel
 Credit–Der Kredit_Die Kredite
-Blow–Der Schlag_Die Schläge
 Devil–Der Teufel_Die Teufel
 Threat–Die Bedrohung_Die Drohungen
 Success–Der Erfolg_Erfolge
@@ -1029,14 +1020,13 @@ Bomb–Die Bombe_Die Bomben
 Panel–Die Platte_Die Paneele
 Ability–Die Fähigkeit_Die Das Können
 Fortune–Das Glück_Die Geschicke
-Victor–Der Sieger_Die Sieger
+Champion–Der Sieger_Die Sieger
 Feather–Die Feder_Die Federn
 Grandma–Die Oma_Die Großmütter
 Glow–Das Glühen_Die Glüht
 Behavior–Das Verhalten_Die Verhaltensweisen
 Passage–Der Durchgang_Die Durchgänge
 Slave–Die Slave_Die Sklaven
-Lieutenant–Der Leutnant_Die Leutnants
 Barrel–Der Lauf_Die Fässer
 Warmth–Die Wärme_Die Warmths
 Impression–Der Eindruck_Die Eindrücke
@@ -1181,7 +1171,6 @@ Copyright–Der Urheberrechts_Die Urheberrechte
 Rod–Die Stange_Die Stäbe
 Fantasy–Die Fantasie_Die Phantasien
 Curiosity–Die Neugier_Die Kuriositäten
-Gown–Das Kleid_Die Kleider
 Border–Die Grenze_Die Grenzen
 Poetry–Die Poesie_Die Dichtungen
 Firm–Die Firma_Die Firmen
@@ -2390,9 +2379,7 @@ Revelation–Die Offenbarung_Die Enthüllungen
 Pancake–Der Pfannkuchen_Die Pfannkuchen
 Asteroid–Der Asteroid_Die Asteroiden
 Postcard–Die Postkarte_Die Postkarten
-Garment–Das Kleidungsstück_Die Kleidungsstücke
 Determination–Die Bestimmung_Die Bestimmungen
-Tractor–Der Traktor_Die Traktoren
 Berry–Die Beere_Die Beeren
 Surroundings–Die Umgebung_Die Surroundingses
 Clump–Der Klumpen_Die Klumpen
@@ -2411,7 +2398,6 @@ Certainty–Die Gewissheit_Die Gewissheiten
 Politician–Der Politiker_Die Politiker
 Gratitude–Die Dankbarkeit_Die Danksagungen
 Current–Die Jetzige_Die Ströme
-Gloom–Das Dunkel_Die Düsterkeit
 Plaster–Der Putz_Die Pflaster
 Settlement–Die Siedlung_Die Siedlungen
 Chop–Die Chop_Die Koteletts
@@ -2452,7 +2438,6 @@ Shutter–Der Verschluss_Die Fensterläden
 Raft–Das Floß_Die Flöße
 Physician–Der Arzt_Die Ärzte
 Ambition–Der Ehrgeiz_Die Ambitionen
-Camel–Das Kamel_Die Kamele
 Beating–Das Schlagen_Die Schläge
 Acid–Die Säure_Die Säuren
 Cereal–Müsli_Getreide
@@ -2482,9 +2467,6 @@ Asphalt–Der Asphalt_Die Asphalte
 Privilege–Das Privileg_Die Privilegien
 Stairway–Das Treppenhaus_Die Treppen
 Maintenance–Die Wartung_Die Wartungen
-Sweetie–Die Süße_Die Süßigkeiten
-Orchard–Der Obstgarten_Die Obstgärten
-Cot–Das Kinderbett_Die Kinderbetten
 Pouch–Der Beutel_Die Taschen
 Lighter–Das Feuerzeug_Die Feuerzeuge
 Kitty–Die Katze_Die Kätzchen
@@ -2573,15 +2555,12 @@ Supervisor–Der Supervisor_Die Aufsichtsbehörden
 Expanse–Die Weite_Die Weiten
 Ending–Das Ende_Die Endungen
 Moss–Das Moos_Die Moose
-Gale–Der Sturm_Die Stürme
 Loyalty–Die Treue_Die Loyalitäten
-Lavender–Der Lavendel_Die Lavendel
 Pardon–Die Begnadigung_Die Begnadigungen
 Ashtray–Der Aschenbecher_Die Aschenbecher
 Shard–Die Scherbe_Die Scherben
 Corporation–Das Unternehmen_Die Konzerne
 Distraction–Die Ablenkung_Die Ablenkungen
-Majesty–Die Majestät_Die Majestäten
 Pyramid–Die Pyramide_Die Pyramiden
 Fame–Der Ruhm_Die Fames
 Graduation–Der Schulabschluss_Die Unterteilungen
@@ -2599,8 +2578,6 @@ Foreigner–Der Ausländer_Die Ausländer
 Salary–Das Gehalt_Die Gehälter
 Scope–Der Anwendungsbereich_Die Bereiche
 Rebel–Der Rebell_Die Rebellen
-Thug–Der Schläger_Die Schläger
-Tomb–Das Grab_Die Gräber
 Fridge–Der Kühlschrank_Die Kühlschränke
 Socket–Die Steckdose_Die Buchsen
 Dose–Die Dosis_Die Dosen
@@ -2619,7 +2596,6 @@ Crumb–Die Krume_Die Krümel
 Wax–Das Wachs_Waxs
 Growl–Das Knurren_Die Growls
 Rental–Die Vermietung_Vermietungen
-Feed–Das Futter_Die Zuführungen
 Escort–Die Eskorte_Die Begleitpersonen
 Astonishment–Das Erstaunen_Die Erstaunlichkeiten
 Flora–Die Flora_Die Floren
@@ -2627,8 +2603,6 @@ Festival–Das Fest_Die Feste
 Debate–Die Debatte_Die Debatten
 Critic–Der Kritiker_Die Kritiker
 Cast–Die Besetzung_Die Modelle
-Bloom–Die Blüte_Die Blüten
-Loft–Das Loft_Die Dachböden
 Commission–Die Kommission_Die Kommissionen
 Flicker–Das Flimmern_Die Flackert
 Economy–Die Wirtschaft_Die Volkswirtschaften
@@ -2665,24 +2639,19 @@ Pose–Die Pose_Die Posen
 Cradle–Die Wiege_Die Wiegen
 Ram–Der Stößel_Die Widder
 Gentry–Der Adel_Die Gentries
-Seam–Die Naht_Die Nähte
 Associate–Das Assoziierte Unternehmen_Die Mitarbeiter
 Pane–Die Scheibe_Die Scheiben
 Punk–Der Punk_Die Punks
-Remnant–Der Überrest_Die Reste
-Cracker–Der Cracker_Die Cracker
 Bluff–Der Bluff_Die Klippen
 Dune–Die Düne_Die Dünen
 Dentist–Der Zahnarzt_Die Zahnärzte
 Refuge–Die Zuflucht_Die Schutzhütten
-Satin–Die Satin_Die Satins
 Spread–Die Verbreitung_Die Spreads
 Entity–Das Unternehmen_Die Entitäten
 Mailbox–Das Postfach_Die Mailboxs
-Annoyance–Der Ärger_Die Ärgernisse
+angry–Der verärgert_Die Ärgernisse
 Hiss–Das Zischen_Die Zischt
 Local–Das Lokal_Die Einheimischen
-Thud–Der Bums_Die Schläge
 Dismay–Die Bestürzung_Die Bestürzt
 Flour–Das Mehl_Die Mehle
 Freak–Der Freak_Die Freaks
@@ -2709,83 +2678,61 @@ Intimacy–Die Intimität_Die Intimitäten
 Lash–Die Peitsche_Die Wimpern
 Saving–Die Einsparung_Die Einsparungen
 Software–Die Software_Die Software
-Hen–Die Henne_Die Hennen
-Birch–Die Birke_Die Birken
-Inquiry–Die Untersuchung_Die Anfragen
 Nursery–Der Kindergarten_Die Baumschulen
 Transport–Der Transport_Die Transporte
 Extent–Das Ausmaß_Die Ausdehnungen
 Definition–Die Definition_Die Definitionen
 Monument–Das Monument_Die Denkmäler
 Plum–Die Pflaume_Die Pflaumen
-Void–Das Nichts_Die Hohlräume
 Delay–Die Verzögerung_Die Verzögerungen
 Inspection–Die Inspektion_Die Inspektionen
-Essence–Die Essenz_Die Essenzen
 Cannon–Die Kanone_Die Kanonen
 Fringe–Die Fransen_Die Fransen
-Stereo–Die Stereo_Die Stereoanlagen
-Fella–Die Fella_Fellas
 Praise–Das Lob_Das Lob
-Penguin–Der Pinguin_Die Pinguine
 Torture–Die Folter_Die Qualen
 Stamp–Die Briefmarke_Die Briefmarken
 Particle–Die Partikel_Die Teilchen
 Translator–Der Übersetzer_Die Übersetzer
 Easter–Ostern_Die Easters
 Freeze–Das Einfrieren_Die Friert
-Pew–Die Pew_Die Bänke
 Wad–Der Pfropfen_Die Bündel
 Panties–Das Höschen_Die Pantieses
 Consideration–Die Gegenleistung_Überlegungen
 Spit–Der Spieß_Die Spieße
-Cooler–Der Kühler_Die Kühler
-Grill–Der Grill_Die Grills
-Jug–Der Krug_Die Krüge
 Nickname–Der Spitzname_Die Spitznamen
 Revolver–Der Revolver_Die Revolver
 Machinery–Die Maschinen_Die Maschinen
-Madam–Die Damen Und Herren_Die Herren
-Pike–Der Hecht_Pikes
 Terrorist–Der Terrorist_Die Terroristen
 Laptop–Der Laptop_Die Laptops
 Offering–Das Angebot_Das Angebot
 Beak–Der Schnabel_Die Schnäbel
-Institution–Die Institution_Die Institutionen
 Comparison–Der Vergleich_Vergleiche
 Maker–Der Macher_Die Macher
 Insight–Die Einsicht_Die Erkenntnisse
 Sibling–Die Geschwister_Die Geschwister
 Wardrobe–Der Kleiderschrank_Die Schränke
-Flap–Die Klappe_Die Klappen
 Sole–Der Einzige_Die Sohlen
 Compassion–Das Mitgefühl_Die Barmherzigkeit
 Ego–Das Ego_Die Egos
 Antenna–Die Antennen_Die Antennen
-Cricket–Die Grille_Die Grillen
-Troll–Der Troll_Die Trolle
 Bookstore–Der Bücherladen_Die Buchhandlungen
-Coming–Die Ankunft_Das Kommen
 Objection–Der Einwand_Die Einwände
 Holder–Der Halter_Die Inhaber
 Backseat–Rücksitz_Die Rücksitze
 Ignorance–Die Unwissenheit_Die Unwissenheit
 Budget–Das Budget_Die Budgets
-Aircraft–Das Flugzeug_Die Flugzeuge
 Corps–Das Korps_Die Leichen
 Loaf–Das Brot_Die Laibe
 Extension–Die Erweiterung_Die Verlängerungen
 Freeway–Die Autobahn_Die Autobahnen
 Solitude–Die Einsamkeit_Die Einsamkeit
 Chemical–Die Chemische_Chemikalien
-Villager–Der Dorfbewohner_Die Dorfbewohner
 Perfection–Die Perfektion_Die Vollkommen
 Pope–Der Papst_Die Päpste
 Semester–Das Semester_Die Semester
 Liver–Die Leber_Die Lebern
 Saucer–Die Untertasse_Die Untertassen
 Urgency–Die Dringlichkeit_Die Dringlichkeiten
-Volcano–Der Vulkan_Die Vulkane
 Spice–Die Würze_Die Gewürze
 Hostage–Die Geisel_Die Geiseln
 Choir–Der Chor_Die Chöre
@@ -2798,80 +2745,51 @@ Errand–Die Besorgung_Die Besorgungen
 Mechanism–Wobei Der Mechanismus_Die Mechanismen
 Telescope–Das Teleskop_Die Teleskope
 Ferry–Die Fähre_Die Fähren
-Nigger–Der Nigger_Die Nigger
 PasserBy–Der Passant_Die Passanten
 Irritation–Die Reizung_Die Irritationen
-Sedan–Die Limousine_Die Limousinen
 Commitment–Das Engagement_Verpflichtungen
 Coward–Der Feigling_Die Feiglinge
-Git–Die Git_Die Gits
 Flare–Die Fackel_Die Fackeln
 Howl–Das Heulen_Das Heulen
 Fang–Die Fang_Die Reißzähne
-Roman–Die Römisch_Die Römer
-Hue–Der Farbton_Die Farbtöne
 Discomfort–Das Unbehagen_Die Unannehmlichkeiten
-Vent–Das Entlüftungs_Die Lüftungsschlitze
 Canoe–Das Kanu_Die Kanus
 Recipe–Das Rezept_Die Rezepte
-Hamburger–Der Hamburger_Die Hamburger
-Eave–Die Traufe_Die Traufe
-Barber–Der Barbier_Die Barbiere
-Passing–Das Ableben_Die Passings
-Betrayal–Der Verrat_Der Verrat
-Sweatshirt–Das Sweatshirt_Die Sweatshirts
-Tentacle–Die Tentakel_Die Tentakeln
 Surf–Die Brandung_Die Brandungen
-Plaid–Das Plaid_Die Plaids
 Walkway–Der Gehweg_Die Gehwege
-Limp–Das Hinken_Die Hinkt
 Administration–Die Verwaltung_Die Verwaltungen
 Convenience–Die Bequemlichkeit_Bequemlichkeiten
 Diaper–Die Windel_Die Windeln
 Mole–Der Maulwurf_Die Maulwürfe
 Cleaner–Der Reiniger_Die Reinigungskräfte
-Swell–Die Dünung_Die Schwillt
-GrownUp–Der Erwachsene_Die Erwachsenen
-Scan–Die Scan_Die Abtastungen
-Clarity–Die Klarheit_Die Klarheiten
 Salon–Der Salon_Die Salons
 Producer–Der Produzent_Die Hersteller
 Flying–Die Flug_Die Flusen
-Plea–Der Rechtsmittelgrund_Die Rechtsmittelgründe
 Prairie–Die Prärie_Die Prärien
 Passport–Der Pass_Die Pässe
 Alternative–Die Alternative_Alternativen
 Vanity–Die Eitelkeit_Die Eitelkeiten
-Dam–Der Damm_Die Dämme
 Abuse–Der Missbrauch_Die Missbräuche
 Olive–Die Olive_Die Oliven
 Miner–Der Bergmann_Die Bergleute
 Reserve–Die Reserve_Die Reserven
 Backup–Die Sicherungs_Die Sicherungen
-Intercom–Die Gegensprechanlage_Die Gegensprechanlagen
-Shawl–Das Tuch_Die Schals
 Platter–Der Plattenteller_Die Platten
 Implication–Die Implikation_Die Auswirkungen
 Rumble–Das Poltern_Die Rumpelt
 Announcer–Der Ansager_Die Ansager
 Rubble–Die Trümmer_Die Trümmern
 Axe–Die Axt_Die Achsen
-Transmission–Die Übertragungs_Die Übertragungen
-Crib–Die Krippe_Die Krippen
-Hop–Die Sprung_Der Hopfen
 Graveyard–Der Friedhof_Die Friedhöfe
 Aroma–Das Aroma_Die Aromen
 Dialogue–Der Dialog_Die Dialoge
 Roller–Die Walze_Die Rollen
-Congregation–Gemeinde_Die Gemeinden
 Terrain–Das Gelände_Die Terrains
 Transfer–Der Transfer_Die Transfers
 Hardware–Die Hardware_Die Hardwares
 Generator–Der Generator_Die Generatoren
 Luxury–Die Luxus_Der Luxus
 Auditorium–Das Auditorium_Die Auditorien
-Goblin–Der Kobold_Die Goblins
-Peg–Der Zapfen_Die Zapfen
 Defeat–Die Niederlage_Die Niederlagen
 Haven–The Haven_Die Oasen
 Specimen–Die Probe_Die Proben
@@ -2881,15 +2799,12 @@ Obsession–Die Besessenheit_Die Obsessionen
 Launch–Der Start_Die Starts
 Patsy–Die Patsy_Die Sündenböcke
 Dorm–Das Wohnheim_Die Schlafsäle
-Glen–The Glen_Die Täler
 Saw–Die Säge_Die Sägen
 Til–Die Til_Die Tils
 Ape–Der Affe_Die Affen
-Stagger–Der Staffelungs_Die Wankt
 Pussy–Die Fotze_Die Fotzen
 Collector–Der Sammler_Die Kollektoren
 Earthquake–Das Erdbeben_Die Erdbeben
-Flake–Die Flocke_Die Flocken
 Syllable–Die Silbe_Die Silben
 Bouquet–Das Bouquet_Die Blumensträuße
 Selection–Die Auswahl_Die Selektionen
@@ -2900,22 +2815,13 @@ Scenario–Das Szenario_Die Szenarien
 Riot–Der Aufruhr_Die Unruhen
 Timing–Das Timing_Die Zeitpunkte
 Burger–Der Burger_Die Burger
-Plus–Die Plus_Die Pluspunkte
 Sparrow–Der Spatz_Die Spatzen
-Embassy–Die Botschaft_Die Botschaften
-Podium–Das Podium_Die Podestplätze
 Accusation–Der Vorwurf_Die Vorwürfe
 Manor–Das Herrenhaus_Die Herrenhäuser
-Shuffling–Das Schlurfen_Die Shufflings
 Dolphin–Der Delfin_Die Delphine
-Kettle–Der Wasserkocher_Die Kessel
-Trooper–Der Soldat_Die Soldaten
-Salvation–Die Rettung_Die Rettungen
 Vet–Der Tierarzt_Die Tierärzte
 Runway–Die Landebahn_Die Start Und Landebahnen
-Poppy–Der Mohn_Der Mohn
-Upstairs–Im Obergeschoss_Die Upstairses
-Lava–Die Lava_Die Laven
+Upstairs–Im Oben_Die Upstairses
 Inspiration–Die Inspiration_Die Inspirationen
 Bosom–Der Busen_Die Busen
 Intruder–Der Eindringling_Die Eindringlinge
@@ -2923,61 +2829,31 @@ Supermarket–Der Supermarkt_Die Supermärkte
 Trophy–Der Pokal_Die Trophäen
 Jealousy–Die Eifersucht_Die Eifersucht
 Warden–Der Aufseher_Des Direktors
-Passageway–Der Durchgang_Die Durchgänge
-Marina–Der Yachthafen_Die Jachthäfen
 Farewell–Das Lebewohl_Die Abschiede
 Belongings–Die Gegenstände_Der Zugehörigkeit
 Procession–Die Prozession_Die Prozessionen
-Astronaut–Der Astronaut_Die Astronauten
 Crotch–Der Schritt_Die Gabelungen
 Sweep–Die Sweep_Die Sweeps
 Recovery–Die Erholung_Die Wiederfindungen
 Harness–Der Kabelbaum_Die Kabelbäume
-Anguish–Die Angst_Die Ängste
 Logo–Das Logo_Die Logos
-Litter–Der Wurf_Die Würfe
-Marine–Die Marine_Die Marines
 Resentment–Der Groll_Die Ressentiments
-CoOp–Der CoOp_Die Genossenschaften
-Drake–The Drake_Die Drachen
-Gypsy–Der Zigeuner_Die Zigeuner
 Imitation–Die Nachahmung_Die Imitationen
 Employer–Der Arbeitgeber_Arbeitgeber
-Freshman–Der Neuling_Die Freshmans
-Phenomenon–Das Phänomen_Die Phänomene
 Flute–Die Flöte_Die Flöten
-Greek–Der Grieche_Die Griechen
-Condo–Die Wohnung_Die Eigentumswohnungen
-Forefinger–Der Zeigefinger_Die Zeigefingern
-Burial–Das Begräbnis_Die Bestattungen
+Burial–Das Begräbnis_Die Bestattungenrn
 Republic–Die Republik_Die Republiken
-Emerald–Der Smaragd_Die Smaragde
 Bathrobe–Der Bademantel_Die Bademäntel
 Testimony–Das Zeugnis_Die Zeugenaussagen
-Hinge–Das Scharnier_Die Scharniere
 Bakery–Die Bäckerei_Die Bäckereien
 Context–Der Kontext_Die Kontexte
-Bargain–Das Schnäppchen_Die Schnäppchen
 Saying–Das Sprichwort_Die Sprüche
-Foreman–Der Vorarbeiter_Die Foremans
-Swan–Der Schwan_Die Schwäne
-Flannel–Die Flanell_Die Waschlappen
 Indication–Die Angabe_Die Indikationen
-Significance–Die Signifikanz_Die Bedeutungen
-Beetle–Der Käfer_Die Käfer
 Learning–Die Lern_Die Erkenntnisse
 Pub–Das Lokal_Die Pubs
-Fraction–Die Fraktion_Die Fraktionen
-Trout–Die Forelle_Die Forellen
-Crust–Die Kruste_Die Krusten
-Overcoat–Die Überzugs_Die Mäntel
-Glint–Das Glitzern_Die Reflexen
 Medal–Die Medaille_Die Medaillen
-Perception–Die Wahrnehmung_Die Wahrnehmungen
 Welcome–Das Willkommen_Die Willkommen
 Dictionary–Das Wörterbuch_Die Wörterbücher
 Metaphor–Die Metapher_Die Metaphern
 Poverty–Die Armut_Die Poverties
-Main–Die Haupt_Netz
 Climb–Der Anstieg_Die Anstiege
-Leash–Die Leine_Die Leinen
