@@ -35,13 +35,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         if(getIntent().getBooleanArrayExtra("loadExistingSuite")[0]){
             ((Button) findViewById(R.id.Reroll)).setVisibility(View.GONE);
             try {
-                wordListName = Helper.getRandomWordList(a);
+                wordListName = Helper.getExistingWordList(a);
             } catch (IOException e) {
                 e.printStackTrace();
-            }
-            for (int i = a.size() - 1; i >= 0; i--) {
-                a.add(a.get(i));
-                a.add(a.get(i));
             }
         }else{
             ((Button) findViewById(R.id.Reroll)).setOnClickListener(this);

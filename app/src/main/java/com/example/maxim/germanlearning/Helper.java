@@ -14,8 +14,10 @@ import java.util.Set;
 
 public class Helper {
     private static ArrayList<Word> allWords = new ArrayList<>();
-    private static final String ABSOLUTE_PATH_TO_LISTS = "/mnt/sdcard/GermanLearning/";
+    private static final String ABSOLUTE_PATH_TO_FILE = "/mnt/sdcard/GermanLearning/existingWords.txt";
     private static final String SEPARATOR = ";";
+    private static final String COUNT_SEPARATOR = "-";
+
 
     public static ArrayList<Word> getWordList(Context context, int nbr) throws IOException {
         if (allWords.size() <= 0) {
@@ -81,16 +83,7 @@ public class Helper {
 
     }
 
-    public static String createWordListFromWords(ArrayList<Word> words) {
-        return createWordListFromWords(words, null);
-    }
-
-    public static String createWordListFromWords(ArrayList<Word> words, String fileName) {
-        if (fileName == null) {
-            for (Word w : words) {
-                fileName += w.EnglishValue + " ";
-            }
-        }
+    public static String upsertWordListFromWords(Word words, int nbrOccurence) {
         String fileContent = "";
         for (Word w : words) {
             fileContent += w.wt + SEPARATOR + w.EnglishValue + SEPARATOR + w.GermanValue + "\n";
@@ -99,23 +92,17 @@ public class Helper {
         return fileName;
     }
 
-    public static ArrayList<Word> getWordFromList(String fileName) throws IOException {
-        BufferedReader r = new BufferedReader(new InputStreamReader(new FileInputStream(ABSOLUTE_PATH_TO_LISTS + fileName)));
+
+    public static ArrayList<Word> getExistingWordList(ArrayList<Word> a) throws Exception{
+        BufferedReader r = new BufferedReader(new InputStreamReader(new FileInputStream(ABSOLUTE_PATH_TO_FILE)));
         ArrayList<Word> words = new ArrayList<>();
         for (String line; (line = r.readLine()) != null; ) {
-            String[] parts = line.split(SEPARATOR);
-            words.add(new Word(parts[0], parts[1], parts[2]));
+            String[] parts = line.split(COUNT_SEPARATOR);
+            int counter = Integer.parseInt(parts[1]);
+            String[] wordDetails = parts[0].split(SEPARATOR);
+            for(int i = 0; i < counter; i++)
+                words.add(new Word(wordDetails[0], wordDetails[1], wordDetails[2]));
         }
         return words;
-
-    }
-
-    public static String getRandomWordList(ArrayList<Word> a) throws IOException {
-        File folder = new File(ABSOLUTE_PATH_TO_LISTS);
-        File[] listOfFiles = folder.listFiles();
-        Random r = new Random();
-        File selectedFile = listOfFiles[r.nextInt(listOfFiles.length)];
-        a.addAll(getWordFromList(selectedFile.getName()));
-        return selectedFile.getName();
     }
 }

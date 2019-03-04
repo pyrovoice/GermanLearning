@@ -12,7 +12,7 @@
         android:layout_height="264dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="68dp"
-        android:text="Start a new suite"
+        android:text="Learn new words"
         android:textSize="24dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -23,7 +23,7 @@
         android:layout_height="264dp"
         android:layout_marginStart="12dp"
         android:layout_marginTop="360dp"
-        android:text="Load an existing suite"
+        android:text="Verify existing words"
         android:textSize="24dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
