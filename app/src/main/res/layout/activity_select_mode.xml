@@ -8,33 +8,22 @@
 
     <Button
         android:id="@+id/newSuit"
-        android:layout_width="384dp"
-<<<<<<< HEAD
+        android:layout_width="match_parent"
         android:layout_height="264dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="68dp"
         android:text="Learn new words"
-=======
-        android:layout_height="248dp"
-        android:text="Start a new suite"
->>>>>>> 5f0d024ab7b7d93928f9d22b0dcbe3b156ab72a2
         android:textSize="24dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/loadSuit"
-        android:layout_width="384dp"
+        android:layout_width="match_parent"
         android:layout_height="264dp"
-<<<<<<< HEAD
-        android:layout_marginStart="12dp"
-        android:layout_marginTop="360dp"
+        android:layout_marginTop="8dp"
         android:text="Verify existing words"
-=======
-        android:text="Load an existing suite"
->>>>>>> 5f0d024ab7b7d93928f9d22b0dcbe3b156ab72a2
         android:textSize="24dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/newSuit" />
 
 </android.support.constraint.ConstraintLayout>

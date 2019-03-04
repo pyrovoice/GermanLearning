@@ -3,27 +3,22 @@ package com.example.maxim.germanlearning;
 import android.content.Context;
 
 import java.io.*;
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.Date;
-import java.util.HashSet;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Random;
 import java.nio.charset.StandardCharsets;
-import java.util.Set;
 
 public class Helper {
-<<<<<<< HEAD
-    private static ArrayList<Word> allWords = new ArrayList<>();
     private static final String ABSOLUTE_PATH_TO_FILE = "/mnt/sdcard/GermanLearning/existingWords.txt";
-=======
+    private static final String ABSOLUTE_PATH_TO_FOLDER = "/mnt/sdcard/GermanLearning";
     private static ArrayList<Word> verbs = new ArrayList<>();
     private static ArrayList<Word> nouns = new ArrayList<>();
     private static ArrayList<Word> other = new ArrayList<>();
-    private static final String ABSOLUTE_PATH_TO_LISTS = "/mnt/sdcard/GermanLearning/";
->>>>>>> 5f0d024ab7b7d93928f9d22b0dcbe3b156ab72a2
+    private static HashMap<Word, Integer> ExistingWords = new HashMap<>();
     private static final String SEPARATOR = ";";
-    private static final String COUNT_SEPARATOR = "-";
+    private static final String PARTS_SEPARATOR = "-";
 
 
     public static ArrayList<Word> getWordList(Context context, int nbr) throws IOException {
@@ -32,13 +27,13 @@ public class Helper {
         }
         Random r = new Random();
         ArrayList<Word> rWords = new ArrayList<>();
-        for (int i = 0; i < (nbr/3 + nbr%3);i++) {
+        for (int i = 0; i < (nbr / 3 + nbr % 3); i++) {
             rWords.add(nouns.get(r.nextInt(nouns.size())));
         }
-        for (int i = 0; i < (nbr/3);i++) {
+        for (int i = 0; i < (nbr / 3); i++) {
             rWords.add(verbs.get(r.nextInt(verbs.size())));
         }
-        for (int i = 0; i < (nbr/3);i++) {
+        for (int i = 0; i < (nbr / 3); i++) {
             rWords.add(other.get(r.nextInt(other.size())));
         }
         return rWords;
@@ -53,7 +48,7 @@ public class Helper {
             String[] germanValue;
             germanValue = parts[1].split("_");
 
-            Word w = new Word(WordType.noun, "(n) " + parts[0], germanValue[0], germanValue[1]);
+            Word w = new Word(WordType.noun, "(n) " + parts[0], germanValue[0]);
             nouns.add(w);
         }
         r = context.getResources().openRawResource(R.raw.verbs);
@@ -65,7 +60,7 @@ public class Helper {
                 german = german.split(",")[0];
             }
             String eng = parts[1];
-            Word w = new Word(WordType.verb, "(v) " + eng.split(";")[0], german, null);
+            Word w = new Word(WordType.verb, "(v) " + eng.split(";")[0], german);
             verbs.add(w);
 
         }
@@ -75,18 +70,56 @@ public class Helper {
             String[] parts = line.split("-");
             String german = parts[0];
             String eng = parts[1];
-            Word w = new Word(WordType.other, eng.split(";")[0], german, null);
+            Word w = new Word(WordType.other, eng.split(";")[0], german);
             other.add(w);
         }
+        //Load file of existing word
+        File f = new File(ABSOLUTE_PATH_TO_FILE);
+        if (f.exists()) {
+            BufferedReader br = new BufferedReader(new FileReader(f));
+            String lineRead = null;
+            while ((lineRead = br.readLine()) != null) {
+                //For each line, create and add the word to existing
+                ExistingWords.putAll(StringToWordMap(lineRead));
+            }
+        }
+    }
+
+    /**
+     * Parse the line and create the Word, then return an arraylist containing the specified number of occurences for this word.
+     *
+     * @param s Format: WordType-EnglishValue;GermanValue-NumberOccurence
+     * @return ArrayList<Word>
+     */
+    private static Map<Word, Integer> StringToWordMap(String s) {
+
+        String[] parts = s.split(PARTS_SEPARATOR);
+        String[] wordDetails = parts[1].split(SEPARATOR);
+        Word w = new Word(WordType.valueOf(parts[0]), wordDetails[0], wordDetails[1]);
+        HashMap<Word, Integer> returnValue = new HashMap<>();
+        returnValue.put(w, Integer.parseInt(parts[2]));
+        return returnValue;
+    }
+
+    /**
+     * Create a string according to the Word and occurence
+     *
+     * @param w            The word
+     * @param nbrOccurence Number of time this word exists in the list
+     * @return String Format: WordType-EnglishValue;GermanValue-NumberOccurence
+     */
+    private static String WordToString(Word w, int nbrOccurence) {
+        return w.WordType + PARTS_SEPARATOR + w.EnglishValue + SEPARATOR + w.GermanValue + PARTS_SEPARATOR + nbrOccurence;
+
     }
 
     private static void writeToFile(String path, String toWrite) {
         //Create files if don't exists
-        File f = new File(ABSOLUTE_PATH_TO_LISTS);
+        File f = new File(ABSOLUTE_PATH_TO_FOLDER);
         if (!f.exists()) {
             f.mkdirs();
         }
-        File file = new File(path);
+        File file = new File(ABSOLUTE_PATH_TO_FILE);
         if (!file.exists()) {
             try {
                 file.createNewFile();
@@ -116,38 +149,25 @@ public class Helper {
 
     }
 
-<<<<<<< HEAD
-    public static String upsertWordListFromWords(Word words, int nbrOccurence) {
-=======
-    public static String createWordListFromWords(ArrayList<Word> words) {
-        return createWordListFromWords(words, null);
-    }
-
-    public static String createWordListFromWords(ArrayList<Word> words, String fileName) {
-        if (fileName == null) {
-            SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd-HH-mm-ss");
-            fileName = format.format(new Date());
+    public static void upsertWordListFromWords(Word word, int nbrOccurence) {
+        // update the word list
+        ExistingWords.put(word, nbrOccurence);
+        // Update the file
+        StringBuilder sb = new StringBuilder();
+        for(Word w : ExistingWords.keySet()){
+            sb.append(WordToString(word, nbrOccurence) + "\n");
         }
->>>>>>> 5f0d024ab7b7d93928f9d22b0dcbe3b156ab72a2
-        String fileContent = "";
-        for (Word w : words) {
-            fileContent += w.wt + SEPARATOR + w.EnglishValue + SEPARATOR + w.GermanValue + "\n";
-        }
-        Helper.writeToFile(ABSOLUTE_PATH_TO_LISTS + fileName, fileContent);
-        return fileName;
+        writeToFile(ABSOLUTE_PATH_TO_FILE, sb.toString());
     }
 
 
-    public static ArrayList<Word> getExistingWordList(ArrayList<Word> a) throws Exception{
-        BufferedReader r = new BufferedReader(new InputStreamReader(new FileInputStream(ABSOLUTE_PATH_TO_FILE)));
-        ArrayList<Word> words = new ArrayList<>();
-        for (String line; (line = r.readLine()) != null; ) {
-            String[] parts = line.split(COUNT_SEPARATOR);
-            int counter = Integer.parseInt(parts[1]);
-            String[] wordDetails = parts[0].split(SEPARATOR);
-            for(int i = 0; i < counter; i++)
-                words.add(new Word(wordDetails[0], wordDetails[1], wordDetails[2]));
+    public static ArrayList<Word> getExistingWordList() throws Exception {
+        ArrayList<Word> returnList = new ArrayList<>();
+        for(Word w : ExistingWords.keySet()){
+            for(int i = 0; i < ExistingWords.get(w); i++){
+                returnList.add(w);
+            }
         }
-        return words;
+        return returnList;
     }
 }

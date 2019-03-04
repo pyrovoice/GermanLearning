@@ -15,6 +15,8 @@ import android.widget.TextView;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashSet;
 import java.util.Random;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
@@ -23,6 +25,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private Random r = new Random();
     private Word lastDisplayedWord;
     private String wordListName;
+    private int requiredNbrWord = 13;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,26 +35,30 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         ((Button) findViewById(R.id.Failure)).setOnClickListener(this);
         ((Button) findViewById(R.id.ShowAnswer)).setOnClickListener(this);
 
-        if(getIntent().getBooleanExtra("loadExistingSuite", false)){
+        if (getIntent().getBooleanExtra("loadExistingSuite", false)) {
             ((Button) findViewById(R.id.Reroll)).setVisibility(View.GONE);
             try {
-                wordListName = Helper.getExistingWordList(a);
-            } catch (IOException e) {
+                a = Helper.getExistingWordList();
+                // Determine the number of different words
+                HashSet<Word> hs = new HashSet<Word>(a);
+                hs.clear();
+                requiredNbrWord = hs.size();
+            } catch (Exception e) {
                 e.printStackTrace();
             }
-        }else{
+        } else {
             ((Button) findViewById(R.id.Reroll)).setOnClickListener(this);
             try {
-                a = Helper.getWordList(this, 13);
+                a = Helper.getWordList(this, requiredNbrWord);
             } catch (IOException e) {
                 e.printStackTrace();
             }
-            wordListName = Helper.createWordListFromWords(a);
             for (int i = a.size() - 1; i >= 0; i--) {
                 a.add(a.get(i));
                 a.add(a.get(i));
             }
         }
+        UpdateInfoTextView();
         displayNext();
     }
 
@@ -87,17 +94,30 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         if (b) {
             // Check if it's the last one
             int counter = 0;
-            for(Word w : a){
-                if(w.EnglishValue.equals(lastDisplayedWord.EnglishValue)){
+            for (Word w : a) {
+                if (w.EnglishValue.equals(lastDisplayedWord.EnglishValue)) {
                     counter++;
                 }
             }
-            if(counter > 1)
+            if (counter > 1)
                 a.remove(lastDisplayedWord);
         } else {
             a.add(lastDisplayedWord);
         }
+        UpdateInfoTextView();
+        Helper.upsertWordListFromWords(lastDisplayedWord, Collections.frequency(a, lastDisplayedWord));
         displayNext();
+    }
+
+    public void UpdateInfoTextView(){
+        int nbrWordMastered = 0;
+        for(Word w: a){
+            if(Collections.frequency(a, w) == 1){
+                nbrWordMastered++;
+            }
+        }
+        String s = "Word mastered: " + nbrWordMastered + "/" + requiredNbrWord;
+        ((TextView) findViewById(R.id.currentWordInfo)).setText(s);
     }
 
     /***
@@ -117,7 +137,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         } catch (Exception e) {
 
         }
-        Helper.createWordListFromWords(a, this.wordListName);
+        UpdateInfoTextView();
         displayNext();
 
     }
